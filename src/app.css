@@ -1,3 +1,53 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/typography';
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+@font-face {
+  font-family: 'MiSansTH';
+  src: url("/fonts/mi-sans-th/MiSansThai.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'MiSansTH';
+  src: url("/fonts/mi-sans-th/MiSansThai-Light.woff2");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'MiSansTH';
+  src: url("/fonts/mi-sans-th/MiSansThai-Bold.woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'MiSans';
+  src: url("/fonts/mi-sans/MiSansLatin-Regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'MiSans';
+  src: url("/fonts/mi-sans/MiSansLatin-Light.woff2");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'MiSans';
+  src: url("/fonts/mi-sans/MiSansLatin-Bold.woff2");
+  font-weight: 700;
+}
+
+* {
+  font-family: 'MiSansTH' , 'MiSans' , sans-serif;
+}
