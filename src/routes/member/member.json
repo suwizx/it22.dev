@@ -17,7 +17,37 @@
       "text": "portfolio",
       "link": "https://suwizx.dev/blog/be-it-kmitl"
     },
-    "tags": ["Tobe68 Tech Team","IT Camp21 Tech Team","Pre Pro Tech Team", "it22.dev Contibutor"]
+    "tags": [
+      "Tobe68 Tech Team",
+      "IT Camp21 Tech Team",
+      "Pre Pro Tech Team",
+      "it22.dev Contibutor"
+    ]
+  },
+  {
+    "name": "Sakditad Pinkaew",
+    "std_id": "67070174",
+    "avatar": "https://scontent-bkk1-2.xx.fbcdn.net/v/t39.30808-6/472710905_1079953707145490_1344873073217507437_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHQ4T97yb-NEJrzFX1sZByxvWmDIbPPE6y9aYMhs88TrFXCgYtZLmpJpBRNEknBty7hdpl8N-jQbxmcCrPDLn5P&_nc_ohc=rHbX4Gxes74Q7kNvgEYiXxb&_nc_oc=AdjnGRIFCGohjaR4UJLWJMQy5ZE8p5hWoWCeTdIM_2nZKDCspwIgGVQqk1tXcVfoytg&_nc_zt=23&_nc_ht=scontent-bkk1-2.xx&_nc_gid=AF0SPxQ9Br6NXXrcBXqjOsz&oh=00_AYDgzSAF9DoueyqPoFeTMqCJXrQWj3UUnrPgvOxC1JIWhQ&oe=67B9E24D",
+    "cover_image": "https://images.unsplash.com/photo-1497506928652-500166625d53?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "bio": "I'm a Full-stuck Developer not a Full-stack Developer. :3",
+    "socials": {
+      "github": "https://github.com/Phoz07",
+      "twitter": "",
+      "facebook": "https://www.facebook.com/profile.php?id=100053926111617",
+      "linkedin": "",
+      "instagram": "https://instagram.com/phos.07",
+      "website": "https://phosz.xyz"
+    },
+    "call_to_action": {
+      "text": "portfolio",
+      "link": "https://phosz.xyz"
+    },
+    "tags": [
+      "Tobe68 Tech Team",
+      "IT Camp21 Tech Team",
+      "Pre Pro Tech Team",
+      "it22.dev Contibutor",
+      "Full-Stuck Developer"
+    ]
   }
- 
 ]
