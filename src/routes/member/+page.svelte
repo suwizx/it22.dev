@@ -36,7 +36,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       {#if members}
         {#each members as member}
-          <div class="border border-zinc-600 p-4 rounded-xl">
+          <div class="border border-white/20 bg-black/40 backdrop-blur-xs p-4 rounded-xl">
             <img
               src={member.cover_image}
               alt={`${member.name} Cover | it22.dev`}
