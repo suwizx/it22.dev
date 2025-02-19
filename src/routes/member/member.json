@@ -18,8 +18,8 @@
       "link": "https://suwizx.dev/blog/be-it-kmitl"
     },
     "tags": [
-      "Tobe68 Tech Team",
-      "IT Camp21 Tech Team",
+      "TobeIT'68 Tech Team",
+      "ITCAMP21 Tech Team",
       "Pre Pro Tech Team",
       "it22.dev Contibutor"
     ]
@@ -43,8 +43,8 @@
       "link": "https://phosz.xyz"
     },
     "tags": [
-      "Tobe68 Tech Team",
-      "IT Camp21 Tech Team",
+      "TobeIT'68 Tech Team",
+      "ITCAMP21 Tech Team",
       "Pre Pro Tech Team",
       "it22.dev Contibutor",
       "Full-Stuck Developer"
@@ -69,5 +69,29 @@
       "link": ""
     },
     "tags": ["Full-Stuck Developer (Newbie Frontend)" , "AI Engineer"]
+  },
+  {
+    "name": "Nathapong Sopapol",
+    "std_id": "67070045",
+    "avatar": "https://cdn.aona.co.th/u/nicenathapong/files/71c73a352404c9d0c1e0e7f0f2e624c9af5b0e23f5864b6057f3cbd96671c5f8.jpg",
+    "cover_image": "https://cdn.aona.co.th/u/nicenathapong/files/4e4c879562b53fd709df9ff11701cc034e21265bde21ee8feb0241ad95c9026a.jpg",
+    "bio": "IT22 at KMITL / AONA Co., Ltd. / Developer<br/>https://nsys.site/",
+    "socials": {
+      "github": "https://github.com/nicenathapong",
+      "twitter": "",
+      "facebook": "https://www.facebook.com/nicenathapong",
+      "linkedin": "",
+      "instagram": "https://www.instagram.com/nicenathapong",
+      "website": "https://nsys.site"
+    },
+    "call_to_action": {
+      "text": "My GF 💕",
+      "link": "https://nano.nsys.site"
+    },
+    "tags": [
+      "TobeIT'68 Tech Team",
+      "ITCAMP21 Tech Team",
+      "it22.dev Contibutor"
+    ]
   }
 ]

@@ -13,41 +13,123 @@
 }
 
 @font-face {
-  font-family: 'MiSansTH';
-  src: url("/fonts/mi-sans-th/MiSansThai.woff2");
-  font-weight: 400;
+  font-family: "MiSans Thai";
+  src: url("/fonts/MiSans_Thai/MiSansThai-Thin.ttf");
+  font-weight: 100;
 }
 
 @font-face {
-  font-family: 'MiSansTH';
-  src: url("/fonts/mi-sans-th/MiSansThai-Light.woff2");
+  font-family: "MiSans Thai";
+  src: url("/fonts/MiSans_Thai/MiSansThai-ExtraLight.ttf");
   font-weight: 200;
 }
 
 @font-face {
-  font-family: 'MiSansTH';
-  src: url("/fonts/mi-sans-th/MiSansThai-Bold.woff2");
-  font-weight: 700;
+  font-family: "MiSans Thai";
+  src: url("/fonts/MiSans_Thai/MiSansThai-Light.ttf");
+  font-weight: 300;
 }
 
 @font-face {
-  font-family: 'MiSans';
-  src: url("/fonts/mi-sans/MiSansLatin-Regular.woff2");
+  font-family: "MiSans Thai";
+  src: url("/fonts/MiSans_Thai/MiSansThai-Normal.ttf");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'MiSans';
-  src: url("/fonts/mi-sans/MiSansLatin-Light.woff2");
+  font-family: "MiSans Thai";
+  src: url("/fonts/MiSans_Thai/MiSansThai-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "MiSans Thai";
+  src: url("/fonts/MiSans_Thai/MiSansThai-Demibold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "MiSans Thai";
+  src: url("/fonts/MiSans_Thai/MiSansThai-Semibold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "MiSans Thai";
+  src: url("/fonts/MiSans_Thai/MiSansThai-Bold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "MiSans Thai";
+  src: url("/fonts/MiSans_Thai/MiSansThai-Heavy.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "MiSans Latin";
+  src: url("/fonts/MiSans_Latin/MiSansLatin-Thin.ttf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "MiSans Latin";
+  src: url("/fonts/MiSans_Latin/MiSansLatin-ExtraLight.ttf");
   font-weight: 200;
 }
 
 @font-face {
-  font-family: 'MiSans';
-  src: url("/fonts/mi-sans/MiSansLatin-Bold.woff2");
+  font-family: "MiSans Latin";
+  src: url("/fonts/MiSans_Latin/MiSansLatin-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "MiSans Latin";
+  src: url("/fonts/MiSans_Latin/MiSansLatin-Normal.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "MiSans Latin";
+  src: url("/fonts/MiSans_Latin/MiSansLatin-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "MiSans Latin";
+  src: url("/fonts/MiSans_Latin/MiSansLatin-Demibold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "MiSans Latin";
+  src: url("/fonts/MiSans_Latin/MiSansLatin-Semibold.ttf");
   font-weight: 700;
 }
 
-* {
-  font-family: 'MiSansTH' , 'MiSans' , sans-serif;
+@font-face {
+  font-family: "MiSans Latin";
+  src: url("/fonts/MiSans_Latin/MiSansLatin-Bold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "MiSans Latin";
+  src: url("/fonts/MiSans_Latin/MiSansLatin-Heavy.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Shangri-La NF";
+  src: url("/fonts/ShangriLaNF.ttf");
+}
+
+@font-face {
+  font-family: "Rise of Kingdom";
+  src: url("/fonts/Rise_of_Kingdom.ttf");
+}
+
+body {
+  font-family: "MiSans Thai", "MiSans Latin", sans-serif;
 }
