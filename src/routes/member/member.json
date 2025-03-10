@@ -93,5 +93,28 @@
       "ITCAMP21 Tech Team",
       "it22.dev Contibutor"
     ]
+  },
+  {
+    "name": "Ratchanon Yaemboo",
+    "std_id": "67070150",
+    "avatar": "https://drive.google.com/file/d/1ElFLfRL0OQ7odC9W1F50iXGMq6RcggoO/view?usp=sharing",
+    "cover_image": "https://drive.google.com/file/d/1RFx3_GP5db0pzKZkuC4pLhw-FrghciV7/view?usp=sharing",
+    "bio": "I'm just a passing-through IT student. Remember that!",
+    "socials": {
+      "github": "https://github.com/toonkaf",
+      "twitter": "",
+      "facebook": "https://facebook.com/ratchanon.yaemboo/",
+      "linkedin": "",
+      "instagram": "https://instagram.com/toon_toonkaf/",
+      "website": ""
+    },
+    "call_to_action": {
+      "text": "",
+      "link": ""
+    },
+    "tags": [
+      "TobeIT'68 Stage Director",
+      "Newbie coder"
+    ]
   }
 ]
