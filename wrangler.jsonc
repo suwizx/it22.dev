@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "it-kmitl-webring",
+  "name": "it22",
   "compatibility_date": "2025-02-14",
   "observability": {
     "enabled": true
@@ -14,5 +14,6 @@
     "directory": ".svelte-kit/cloudflare"
   },
   "workers_dev": true,
-  "preview_urls": true
+  "preview_urls": false,
+  "routes" : ["it22.creasy.club"]
 }
