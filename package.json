@@ -44,6 +44,7 @@
 	},
 	"dependencies": {
 		"@libsql/client": "^0.17.3",
+		"@tailwindcss/vite": "^4.2.4",
 		"drizzle-orm": "^0.45.2",
 		"svelte-icons-pack": "^3.1.3"
 	}
