@@ -1,5 +1,4 @@
 <script lang="ts">
-  import members from "./member.json";
   import { Icon } from "svelte-icons-pack";
   import { AiOutlineLink } from "svelte-icons-pack/ai";
   import { BsFacebook } from "svelte-icons-pack/bs";
@@ -7,6 +6,7 @@
   import { BsInstagram } from "svelte-icons-pack/bs";
   import { BsLinkedin } from "svelte-icons-pack/bs";
   import { AiOutlineX } from "svelte-icons-pack/ai";
+  import { members } from "./member";
 
   let colors = [
     "bg-blue-500",
@@ -31,11 +31,11 @@
     <div class="mb-4">
       <h1 class="text-4xl font-bold mb-4 text-orange-500">IT<span class="text-blue-500">22</span> <span class="text-white">Member</span></h1>
       <p>If you are IT22 you can add you profile in this page.</p>
-      <p>Add you data in <a href="https://github.com/suwizx/it22.dev" class="text-orange-500 hover:underline">it22.dev repository</a>.</p>
+      <p>Add you data in <a href="https://github.com/suwizx/it22.dev" rel="external noopener noreferrer" class="text-orange-500 hover:underline">it22.dev repository</a>.</p>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       {#if members}
-        {#each members as member}
+        {#each members as member (member.std_id)}
           <div class="border border-white/20 bg-black/40 backdrop-blur-xs p-4 rounded-xl">
             <img
               src={member.cover_image}
@@ -58,11 +58,12 @@
                 {#if member.call_to_action}
                   <a
                     href={member.call_to_action.link}
+                    rel="external noopener noreferrer"
                     target="_blank"
                     class="uppercase bg-blue-500 py-1 px-2 md:px-4 rounded-lg font-bold flex items-center gap-2"
                     > <span class="hidden md:block">{member.call_to_action.text}</span><Icon
                       src={AiOutlineLink}
-                      size={"1.4em"}
+                      size="1.4em"
                     /></a
                   >
                 {/if}
@@ -76,44 +77,50 @@
                 {#if member.socials.facebook}
                   <a
                     href={member.socials.facebook}
+                    rel="external noopener noreferrer"
                     class="hover:opacity-75"
-                    target="_blank"><Icon size={"1.6em"} src={BsFacebook} /></a
+                    target="_blank"><Icon size="1.6em" src={BsFacebook} /></a
                   >
                 {/if}
                 {#if member.socials.github}
                   <a
                     href={member.socials.github}
+                    rel="external noopener noreferrer"
                     class="hover:opacity-75"
-                    target="_blank"><Icon size={"1.6em"} src={BsGithub} /></a
+                    target="_blank"><Icon size="1.6em" src={BsGithub} /></a
                   >
                 {/if}
                 {#if member.socials.instagram}
                   <a
                     href={member.socials.instagram}
+                    rel="external noopener noreferrer"
                     class="hover:opacity-75"
-                    target="_blank"><Icon size={"1.6em"} src={BsInstagram} /></a
+                    target="_blank"><Icon size="1.6em" src={BsInstagram} /></a
                   >
                 {/if}
                 {#if member.socials.linkedin}
                   <a
                     href={member.socials.linkedin}
+                    rel="external noopener noreferrer"
                     class="hover:opacity-75"
-                    target="_blank"><Icon size={"1.6em"} src={BsLinkedin} /></a
+                    target="_blank"><Icon size="1.6em" src={BsLinkedin} /></a
                   >
                 {/if}
                 {#if member.socials.twitter}
                   <a
                     href={member.socials.twitter}
+                    rel="external noopener noreferrer"
                     class="hover:opacity-75"
-                    target="_blank"><Icon size={"1.6em"} src={AiOutlineX} /></a
+                    target="_blank"><Icon size="1.6em" src={AiOutlineX} /></a
                   >
                 {/if}
                 {#if member.socials.website}
                   <a
                     href={member.socials.website}
+                    rel="external noopener noreferrer"
                     class="hover:opacity-75"
                     target="_blank"
-                    ><Icon size={"1.6em"} src={AiOutlineLink} /></a
+                    ><Icon size="1.6em" src={AiOutlineLink} /></a
                   >
                 {/if}
               </div>
@@ -121,7 +128,7 @@
             <div class="p-2">
               {#if member.tags.length > 0}
                 <div class="flex gap-2 mt-4 flex-wrap">
-                  {#each member.tags as tag , tag_index}
+                  {#each member.tags as tag, tag_index (tag_index)}
                     <span
                       class={`px-2 py-1 rounded-lg text-white font-bold text-xs text-nowrap  ${colors[tag_index % colors.length]}`}
                       >{tag}</span
